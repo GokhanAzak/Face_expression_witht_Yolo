@@ -1,0 +1,12 @@
+# data.yaml
+
+# txt listelerinin yolları
+train: data/fer2013/train.txt
+val: data/fer2013/val.txt
+test: data/fer2013/test.txt  # YOLOv8 test parametresi için kullanılabilir
+
+# Toplam sınıf sayısı
+nc: 7
+
+# Her sınıfa karşılık gelen etiket isimleri (0..6)
+names: [ 'Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral' ]
